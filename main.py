@@ -1,12 +1,12 @@
 ####################### Libraries #######################
-								    					#
-import re, time										    #
-from selenium.webdriver import *						#
-from selenium.webdriver.firefox.options import Options	#
-from termcolor import colored       					#
-from bs4 import BeautifulSoup as BS						#
-import urllib, argparse, platform						#
-									   					#
+
+import re, time  
+from selenium.webdriver import *						
+from selenium.webdriver.firefox.options import Options	
+from termcolor import colored       					
+from bs4 import BeautifulSoup as BS						
+import urllib, argparse, platform						
+
 #########################################################
 
 ################ Main Class #################
