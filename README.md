@@ -13,7 +13,7 @@ Step 2. Go to folder with downloaded repository and run:
   Linux: python3 install.py
   Windows: python install.py
   
-Step 3. Run main.py script ( the same command as in step 2 but with replacing install.py to main.py )
+Step 3. Run main.py script ( the same command as in step 2 but with replacing install.py to main.py and adding --name "Track's Name" )
 
 # Requirements
 
