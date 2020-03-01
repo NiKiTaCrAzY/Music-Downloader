@@ -6,6 +6,7 @@ from selenium.webdriver.firefox.options import Options
 from termcolor import colored       					
 from bs4 import BeautifulSoup as BS						
 import urllib, argparse, platform						
+import base64
 
 #########################################################
 
@@ -34,7 +35,7 @@ class Download_Music:
 			else:
 				self.driver = Firefox(executable_path = "./geckodriver32.exe", firefox_options = self.opt)
 	def get_music_webpage(self):
-		self.driver.get("https://goobum.ru/index.php?do=search")
+		self.driver.get(base64.b64decode(b'aHR0cHM6Ly9nb29idW0ucnUvaW5kZXgucGhwP2RvPXNlYXJjaA==').decode())
 		time.sleep(10)
 		self.driver.find_element_by_id("searchinput").send_keys(self.name)
 		self.driver.find_element_by_id("dosearch").click()
