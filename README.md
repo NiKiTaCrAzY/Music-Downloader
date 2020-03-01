@@ -1,3 +1,5 @@
+# For educational purposes only! This script is written only for demonstration of Python programming language abilities
+
 # Music-Downloader
 Download music by entering its name!
 
